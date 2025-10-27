@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tarea2">
         <activity
+            android:name=".DishDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CountryDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
